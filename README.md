@@ -26,7 +26,7 @@ When you're ready, just run `vagrant up` in the directory the `Vagrantfile` is i
 
 SSH in using `vagrant ssh hn0` or `vagrant ssh wn0`.
 
-You'll also be able to see the Spark WebUI at `http://192.168.0.150:8080`.
+You'll also be able to see the Spark WebUI at `http://192.168.1.150:8080`.
 
 Shut down the cluster with `vagrant halt` and delete it with `vagrant destroy`. You can always run `vagrant up` to turn on or build a brand new cluster.
 

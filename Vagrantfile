@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
       tar xf /vagrant/spark.tgz -C /home/vagrant/spark --strip 1
       echo "export SPARK_HOME=/home/vagrant/spark" >> /home/vagrant/.bashrc
       echo "export PATH=$PATH:/home/vagrant/spark/bin" >> /home/vagrant/.bashrc
-      echo "spark.master spark://172.28.128.150:7077" >> /home/vagrant/spark/conf/spark-defaults.conf
+      echo "spark.master spark://192.168.1.150:7077" >> /home/vagrant/spark/conf/spark-defaults.conf
       echo "SPARK_LOCAL_IP=192.168.1.150" >> /home/vagrant/spark/conf/spark-env.sh
       echo "SPARK_MASTER_IP=192.168.1.150" >> /home/vagrant/spark/conf/spark-env.sh
     SHELL
