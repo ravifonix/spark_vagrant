@@ -35,7 +35,7 @@ Shut down the cluster with `vagrant halt` and delete it with `vagrant destroy`. 
 To run `SparkPi` on the cluster, run the following commands:
 
     vagrant ssh hn0
-    spark-submit --class org.apache.spark.examples.SparkPi ~/spark/examples/jars/spark-examples_2.11-2.2.1.jar 1000
+    spark-submit --class org.apache.spark.examples.SparkPi ~/spark/examples/jars/spark-examples_2.11-2.4.6.jar 1000
 
 # License #
 
